@@ -79,6 +79,11 @@ func NewCompositeLogger(logConfigs []*LogConfig) (*CompositeLogger, error) {
 func NewDefaultLogger()  (*CompositeLogger, error)  {
   logConfigs := []*LogConfig{
     &LogConfig{
+      Location: "stdout",
+      Level: "info",
+      Format: "text",
+    },
+    &LogConfig{
       Location: "stderr",
       Level: "warning",
       Format: "text",
