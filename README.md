@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/spatialcurrent/go-composite-logger.svg)](https://travis-ci.org/spatialcurrent/go-composite-logger) [![GoDoc](https://godoc.org/github.com/spatialcurrent/go-composite-logger?status.svg)](https://godoc.org/github.com/spatialcurrent/go-composite-logger)
+
 # go-composite-logger
 
 # Description
